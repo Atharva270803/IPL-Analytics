@@ -163,15 +163,3 @@ ipl-analytics/
 - Required run rate explains more variance in win probability than 
   wickets — pressure metrics dominate in T20
 
----
-
-## Interview talking points
-- Why GroupKFold instead of train_test_split?
-- What does Brier score measure vs ROC-AUC?
-- What did the toss advantage analysis find?
-- How did you handle data leakage in time-series sports data?
-
----
-
-*Built as part of a data science portfolio targeting analytics roles 
-at BFSI and product companies.*
