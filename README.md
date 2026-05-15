@@ -7,7 +7,7 @@
 ![Status](https://img.shields.io/badge/Status-Live-brightgreen)
 
 ## Live demo
-🔗 [Coming soon — deploy link here]
+🔗 [Live Demo](https://ipl-analytics-d3docibsy5rxrr7kers43s.streamlit.app/)
 
 ---
 
@@ -103,7 +103,7 @@ add match phase interaction features.
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/yourusername/ipl-analytics.git
+git clone https://github.com/Atharva270803/IPL-Analytics.git
 cd ipl-analytics
 
 # 2. Create conda environment
@@ -163,3 +163,8 @@ ipl-analytics/
 - Required run rate explains more variance in win probability than 
   wickets — pressure metrics dominate in T20
 
+## Interview talking points
+- Why GroupKFold instead of train_test_split?
+- What does Brier score measure vs ROC-AUC?
+- What did the toss advantage analysis find?
+- How did you handle data leakage in time-series sports data?
