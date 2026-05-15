@@ -7,7 +7,9 @@ import joblib
 import streamlit as st
 from dotenv import load_dotenv
 
-os.chdir(r'C:\Users\Lenovo\ipl-analytics')
+# ── Path setup — works both locally and on Streamlit Cloud ──────
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+os.chdir(BASE_DIR)
 load_dotenv()
 
 # ── Team colors ─────────────────────────────────────────────────
